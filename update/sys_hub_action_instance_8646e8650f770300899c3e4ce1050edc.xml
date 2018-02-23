@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Wait For Condition">d3f92c160b10030085c083eb37673a7f</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send Incident to Slack and Remote Snow instance">4246e8650f770300899c3e4ce1050eca</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-21 06:47:26</sys_created_on>
+        <sys_id>8646e8650f770300899c3e4ce1050edc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Slack Incident Integration" source="x_171481_slack_inc">4d85d4e10f370300899c3e4ce1050e6e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Slack Incident Integration">4d85d4e10f370300899c3e4ce1050e6e</sys_scope>
+        <sys_update_name>sys_hub_action_instance_8646e8650f770300899c3e4ce1050edc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-21 06:47:26</sys_updated_on>
+        <ui_id>862fda1a-075a-40eb-8339-f70205a34ddb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8646e8650f770300899c3e4ce1050edc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8646e8650f770300899c3e4ce1050edc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-21 06:47:27</sys_created_on>
+        <sys_id>8646e8650f770300899c3e4ce1050edf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-21 06:47:27</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">1ff92c160b10030085c083eb37673a81</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8646e8650f770300899c3e4ce1050edc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-21 06:47:27</sys_created_on>
+        <sys_id>c246e8650f770300899c3e4ce1050edf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-21 06:47:27</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">5ff92c160b10030085c083eb37673ac1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8646e8650f770300899c3e4ce1050edc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8646e8650f770300899c3e4ce1050edc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-21 06:47:27</sys_created_on>
+        <sys_id>ca46e8650f770300899c3e4ce1050ede</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-21 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8646e8650f770300899c3e4ce1050edc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-21 06:47:27</sys_created_on>
+        <sys_id>4246e8650f770300899c3e4ce1050edf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-21 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8646e8650f770300899c3e4ce1050edc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-01-21 06:47:27</sys_created_on>
+        <sys_id>8e46e8650f770300899c3e4ce1050ede</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-01-21 06:47:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d3f92c160b10030085c083eb37673a7f</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
